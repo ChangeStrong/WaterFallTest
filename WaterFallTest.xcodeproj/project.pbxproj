@@ -12,6 +12,7 @@
 		21EC6FE91F8E467E00F21283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC6FE71F8E467E00F21283 /* Main.storyboard */; };
 		21EC6FEB1F8E467E00F21283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC6FEA1F8E467E00F21283 /* Assets.xcassets */; };
 		21EC6FEE1F8E467E00F21283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC6FEC1F8E467E00F21283 /* LaunchScreen.storyboard */; };
+		21EC6FF61F8E4AB500F21283 /* LLCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC6FF51F8E4AB500F21283 /* LLCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21EC6FEA1F8E467E00F21283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21EC6FED1F8E467E00F21283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21EC6FEF1F8E467E00F21283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EC6FF51F8E4AB500F21283 /* LLCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				21EC6FE31F8E467E00F21283 /* AppDelegate.swift */,
 				21EC6FE51F8E467E00F21283 /* ViewController.swift */,
+				21EC6FF51F8E4AB500F21283 /* LLCollectionViewLayout.swift */,
 				21EC6FE71F8E467E00F21283 /* Main.storyboard */,
 				21EC6FEA1F8E467E00F21283 /* Assets.xcassets */,
 				21EC6FEC1F8E467E00F21283 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EC6FF61F8E4AB500F21283 /* LLCollectionViewLayout.swift in Sources */,
 				21EC6FE61F8E467E00F21283 /* ViewController.swift in Sources */,
 				21EC6FE41F8E467E00F21283 /* AppDelegate.swift in Sources */,
 			);
